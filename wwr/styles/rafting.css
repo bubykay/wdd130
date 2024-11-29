@@ -2,7 +2,7 @@
     --primay-color: #505033;
     --white-color: white;
     --secondary-color: #264969;
-    --home-section-padding: 40px 100px 40px 100px;
+    --home-section-padding: 20px 100px 20px 100px;
     --button-padding: 10px 20px 10px 20px;
     --button-primary: blue;
     --accent-1: #cfcfb4;
@@ -129,6 +129,8 @@ main {
 section {
     gap: 4px;
     padding: var(--home-section-padding);
+    border: 1px solid black;
+    margin: 10px 20px 40px 20px;
 }
 
 .card-container {
@@ -237,4 +239,8 @@ figcaption {
     font-size: 14px;
     color: #555;
     margin-top: 10px;
+}
+
+.flex-2 {
+    flex: 2;
 }
