@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
 :root {
     --primay-color: #505033;
     --white-color: white;
@@ -137,6 +139,7 @@ section {
     border: 0;
     display: flex;
     gap: 50px;
+    margin-top: 50px;
 }
 .contact-card {
     flex: 1;
@@ -342,11 +345,55 @@ button:hover {
 }
 
 .column3 {
-    grid-template-columns: 3fr 1fr;
-    text-align: right;
+    grid-template-columns: 1fr 9fr;
+    margin: auto;
+    padding: 8px;
 }
 
 a {
     color: #fff;
     text-decoration: none;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.staff-images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    border: 0;
+    margin: auto;
+}
+.staff-images img {
+    border-radius: 50%;
+}
+.staff-images figure {
+    border: 2px var(--accent-1) solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.staff-section {
+    border: 0;
+    text-align: center;
+}
+
+.staff-section h1 {
+    color: var(--secondary-color);
+    font-size: 30px;
+}
+
+.staff-images figcaption {
+    color: #fff;
+    background-color: var(--primay-color);
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+}
+
+.google-map {
+    border: 0;
+    width: 100%;
+    height: 400px;
 }
