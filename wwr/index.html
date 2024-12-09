@@ -3,18 +3,18 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles/styles.css" />
-        <title>Document</title>
+        <link rel="stylesheet" href="styles/rafting.css" />
+        <title>Welcome to White water Rafting</title>
     </head>
     <body>
         <header>
             <img src="./images/logo.png" alt="" width="100" class="logo" />
             <nav>
                 <ul class="nav">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="#">Trips</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav>
         </header>
@@ -22,11 +22,16 @@
             <div class="hero">
                 <h1 class="home-title">Rafting company</h1>
                 <article>
-                    <p class="divers-cta">Call to actions</p>
+                    <button
+                        onclick="window.location.href='/wdd130/wwr/trips.html'"
+                        class="divers-cta"
+                    >
+                        Current Offers
+                    </button>
                     <img src="./images/rafters.jpg" alt="" class="divers-img" />
                 </article>
             </div>
-            <section class="card-container">
+            <section class="card-container border-0">
                 <div class="card-item">
                     <img src="./images/placeholder.png" alt="" />
                     <p class="card-title">lorem image</p>
@@ -40,7 +45,7 @@
                     <p class="card-title">lorem image</p>
                 </div>
             </section>
-            <section class="overlay-section">
+            <section class="overlay-section border-0">
                 <div class="contact-overlay">
                     <h1>Heading</h1>
                     <p>
@@ -57,10 +62,37 @@
                         voluptatibus? Accusamus maiores saepe distinctio quam
                         optio totam?
                     </p>
-                    <button type="button">Contact Us</button>
+                    <button
+                        type="button"
+                        onclick="window.location.href='/wdd130/wwr/contact.html'"
+                    >
+                        Contact Us
+                    </button>
                 </div>
+
                 <img src="./images/placeholder.png" alt="" width="700" />
             </section>
+            <div class="newsletter">
+                <form class="linear-form">
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Enter your name"
+                    />
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Enter your email"
+                    />
+                    <button type="submit">Subscribe</button>
+                </form>
+                <em
+                    >Subscribe to our Newsletters for current and updated
+                    offers</em
+                >
+            </div>
         </main>
         <footer>
             <div class="copyright">

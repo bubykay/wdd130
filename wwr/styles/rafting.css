@@ -15,6 +15,8 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    bottom: 0;
+    background-color: var(--accent-2);
 }
 h1,
 h2,
@@ -37,13 +39,13 @@ h6 {
     font-weight: 900; /* Black */
 }
 
-button {
+/* button {
     color: white;
     padding: var(--button-padding);
     background-color: var(--secondary-color);
     border: 0;
     cursor: pointer;
-}
+} */
 
 header {
     background-color: var(--primay-color);
@@ -107,11 +109,11 @@ main {
     margin-bottom: 10px;
 }
 .divers-cta {
-    /* background-color: var(--secondary-color); */
-    /* padding: 10px 20px 10px 20px; */
+    background-color: var(--primay-color);
     position: absolute;
     bottom: 50px;
     right: 75px;
+    color: #fff;
 }
 .divers-img {
     width: 100%;
@@ -151,9 +153,7 @@ section {
     gap: 70px;
     text-align: center;
 }
-.card-item {
-    /* margin-bottom: 0; */
-}
+
 .card-title {
     margin-top: 0;
 }
@@ -404,4 +404,38 @@ a {
 .messageType {
     display: flex;
     margin-bottom: 10px;
+}
+
+.border-0 {
+    border: 0;
+}
+
+.linear-form {
+    display: flex;
+    gap: 15px;
+    width: 550px;
+    border: 0;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 2px;
+    padding-bottom: 5px;
+    border-bottom: 2px var(--primay-color) solid;
+    border-radius: 0;
+    background-color: var(--accent-2);
+}
+.linear-form input {
+    padding: 3px 5px 3px 5px;
+    height: 30px;
+    border-radius: 8px;
+}
+.linear-form button {
+    height: 40px;
+    margin: 2px;
+    padding: 10px 20px 10px 20px;
+}
+.newsletter {
+    text-align: center;
+    background-color: var(--accent-2);
+    padding: 20px;
+    color: var(--primay-color);
 }
