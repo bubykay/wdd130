@@ -480,6 +480,11 @@ a {
 .form-item-newsletter {
     display: flex;
     align-items: center;
+}
 
-    /* color: #fff; */
+.contact-header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid;
+    border-color: 1px var(--primay-color);
 }
