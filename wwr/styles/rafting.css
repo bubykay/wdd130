@@ -87,6 +87,7 @@ footer {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin-top: 20px;
 }
 .copyright {
     flex: 3;
@@ -426,13 +427,13 @@ a {
 .linear-form {
     display: flex;
     gap: 15px;
-    width: 550px;
+    width: 700px;
     border: 0;
     margin: auto;
     margin-bottom: 5px;
-    padding: 2px;
-    padding-bottom: 5px;
-    border-bottom: 2px var(--primay-color) solid;
+    padding: 10px;
+    /* padding-bottom: 5px; */
+
     border-radius: 0;
     background-color: var(--accent-2);
 }
@@ -451,6 +452,7 @@ a {
     background-color: var(--accent-2);
     padding: 20px;
     color: var(--primay-color);
+    /* display: inline; */
 }
 
 .booking {
@@ -468,4 +470,16 @@ a {
 .packages-container figure {
     background-color: var(--accent-1);
     border-radius: 10px 10px 0px 0px;
+    padding-bottom: 10px;
+}
+
+.home-title {
+    left: 0;
+}
+
+.form-item-newsletter {
+    display: flex;
+    align-items: center;
+
+    /* color: #fff; */
 }
